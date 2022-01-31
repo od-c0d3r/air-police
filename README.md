@@ -29,16 +29,50 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Note: this is a one-way operation. Once you `eject`, you cant go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you arent satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point youre on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You dont have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldnt feel obligated to use this feature. However we understand that this tool wouldnt be useful if you couldnt customize it when you are ready for it.
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+```
+Photo by <a href="https://unsplash.com/@kristenmorith?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kristen Morith</a> on <a href="https://unsplash.com/s/photos/air-pollution?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@mikemarrah?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Marrah</a> on <a href="https://unsplash.com/s/photos/air-pollution?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+```
+
+```
+Codebase
+https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase
+```
+
+```
+seperate routes file
+https://stackoverflow.com/questions/43026690/declaring-react-routes-in-a-separate-file-and-importing
+```
+
+```
+apis used
+https://restcountries.com/#rest-countries
+https://github.com/eesur/country-codes-lat-long/blob/master/country-codes-lat-long-alpha3.json
+https://openweathermap.org/api/air-pollution#current
+```
+
+```
+desgins used
+https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)
+```
+
+```
+text effects
+https://css-tricks.com/methods-contrasting-text-backgrounds/
+```
+
