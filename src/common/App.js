@@ -1,11 +1,10 @@
 import React from 'react';
-import createRoutes from '../routes';
 import Header from './Header';
+import createRoutes from '../routes';
 
 function App() {
   return (
     <main id="App">
-      #App
       <Header />
       {createRoutes()}
     </main>
