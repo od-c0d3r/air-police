@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import logger from 'redux-logger'
-import { reduxBatch } from '@manaflair/redux-batch'
-import airReducer from './air/airReducer';
+import logger from 'redux-logger';
+import { reduxBatch } from '@manaflair/redux-batch';
+import airReducer from './air/airSlice';
 
-export const store = configureStore({
+const store = configureStore({
   reducer: {
     air: airReducer,
   },
@@ -11,3 +11,5 @@ export const store = configureStore({
   devTools: process.env.NODE_ENV !== 'production',
   enhancers: [reduxBatch],
 });
+
+export default store;
