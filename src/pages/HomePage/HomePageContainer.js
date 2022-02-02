@@ -7,7 +7,7 @@ const HomePageContainer = () => {
     <Row xs={2} md={3} className="g-4 ms-0 me-0">
       {array.map((country) => (
         <Col key={country.id}>
-          <Card>
+          <Card className="shadow-sm" onClick={() => console.log(`clicked ${country.id}`)}>
             <Card.Body>
               <Card.Title>{country.name}</Card.Title>
               <Card.Text>

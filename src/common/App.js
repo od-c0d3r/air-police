@@ -1,14 +1,14 @@
 import React from 'react';
-import { HiOutlineExclamationCircle } from 'react-icons/hi';
 import Header from './Header';
 import createRoutes from '../routes';
+import InfoComponent from './InfoComponent';
 
 function App() {
   return (
     <main id="App">
       <Header />
       {createRoutes()}
-      <HiOutlineExclamationCircle id="info" />
+      <InfoComponent />
     </main>
   );
 }

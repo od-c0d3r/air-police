@@ -1,15 +1,22 @@
 body {
-  position: relative;
   overflow: visible;
   overflow-x: auto;
 
   #info {
-    color: #31D2F2;
+    color: #31d2f2;
     position: fixed;
     bottom: 5px;
     right: 10px;
     font-size: 35px;
   }
+
+  #alert-window {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+
   .navLink {
     text-decoration: none;
     color: orange;
