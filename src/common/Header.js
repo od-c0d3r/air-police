@@ -5,7 +5,6 @@ import {
   Navbar,
 } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 
 const Header = () => (
   <Navbar bg="light">
@@ -17,11 +16,10 @@ const Header = () => (
       <Form className="d-flex">
         <FormControl
           type="search"
-          placeholder="Search"
+          placeholder="Filter by Country Name"
           className="me-2"
           aria-label="🔍"
         />
-        <Button variant="outline-warning">🔍</Button>
       </Form>
     </Container>
   </Navbar>

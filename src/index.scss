@@ -1,7 +1,15 @@
 body {
+  position: relative;
   overflow: visible;
   overflow-x: auto;
 
+  #info {
+    color: #31D2F2;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    font-size: 35px;
+  }
   .navLink {
     text-decoration: none;
     color: orange;
