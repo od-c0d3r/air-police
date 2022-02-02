@@ -3,7 +3,7 @@ import { Alert, Button } from 'react-bootstrap';
 import { HiOutlineExclamationCircle } from 'react-icons/hi';
 
 const InfoComponent = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   return (
     <>
