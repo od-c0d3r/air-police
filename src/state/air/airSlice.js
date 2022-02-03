@@ -20,8 +20,13 @@ export const airSlice = createSlice({
       const newState = { ...oldAir, filter: newFilter };
       return newState;
     },
+    filterShowAll: (state) => {
+      const oldAir = JSON.parse(JSON.stringify(state));
+      const newState = { ...oldAir, filter: oldAir.air };
+      return newState;
+    },
   },
 });
 
-export const { initState, filterByName } = airSlice.actions;
+export const { initState, filterByName, filterShowAll } = airSlice.actions;
 export default airSlice.reducer;
