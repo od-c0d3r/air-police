@@ -5,7 +5,7 @@ import airReducer from './air/airSlice';
 
 const store = configureStore({
   reducer: {
-    air: airReducer,
+    airApp: airReducer,
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
   devTools: process.env.NODE_ENV !== 'production',
