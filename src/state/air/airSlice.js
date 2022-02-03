@@ -25,8 +25,22 @@ export const airSlice = createSlice({
       const newState = { ...oldAir, filter: oldAir.air };
       return newState;
     },
+    fetchCountryData: (state, action) => {
+      const oldAir = JSON.parse(JSON.stringify(state));
+      const newState = {
+        air: oldAir.air.concat([action.payload]),
+        filter: oldAir.filter.concat([action.payload]),
+      };
+      return newState;
+    },
   },
 });
 
-export const { initState, filterByName, filterShowAll } = airSlice.actions;
+export const {
+  initState,
+  filterByName,
+  filterShowAll,
+  fetchCountryData,
+} = airSlice.actions;
+
 export default airSlice.reducer;

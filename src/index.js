@@ -6,6 +6,7 @@ import store from './state/store';
 import App from './common/App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.scss';
+import './api/owAPI';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -18,7 +18,10 @@ const Header = () => {
           <NavLink
             to="/"
             className="navLink"
-            onClick={() => dispatch(filterShowAll())}
+            onClick={() => {
+              document.getElementById('inputSearch').value = null;
+              dispatch(filterShowAll());
+            }}
           >
             AirPolice
           </NavLink>
