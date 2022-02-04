@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Alert, Button } from 'react-bootstrap';
+import { Alert, Button, Table } from 'react-bootstrap';
 import { HiOutlineExclamationCircle } from 'react-icons/hi';
 
 const InfoComponent = () => {
@@ -8,15 +8,48 @@ const InfoComponent = () => {
   return (
     <>
       <Alert id="alert-window" show={show} variant="success">
-        <Alert.Heading>How&apos;s it going?!</Alert.Heading>
+        <Alert.Heading>Info</Alert.Heading>
         <p>
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-          lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
-          fermentum.
+          Due to OpenWeatherAPI number of API calls limitations we had to reduce
+          the number of countries that we call the API for.
+        </p>
+        <p>
+          So we choose the most 20 populated countries in Africa.
         </p>
         <hr />
-        <div className="d-flex justify-content-end">
-          <Button onClick={() => setShow(false)}>Close Alert</Button>
+        <Alert.Heading>Indexs Table</Alert.Heading>
+        <Table striped hover>
+          <thead>
+            <tr>
+              <th>Qualitative name</th>
+              <th>Index</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Good</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Fair</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Moderate</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>Poor</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Very Poor</td>
+              <td>5</td>
+            </tr>
+          </tbody>
+        </Table>
+        <div className="d-flex justify-content-start">
+          <Button variant="warning" onClick={() => setShow(false)}>Close Alert</Button>
         </div>
       </Alert>
 

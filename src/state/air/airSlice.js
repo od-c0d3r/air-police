@@ -6,38 +6,28 @@ export const airSlice = createSlice({
   name: 'air',
   initialState,
   reducers: {
-    initState: (state, action) => (
-      {
-        air: state.air.concat(action.payload),
-        filter: state.air.concat(action.payload),
-      }
-    ),
     filterByName: (state, action) => {
+      const oldAir = JSON.parse(JSON.stringify(state));
       const newFilter = state.air.filter(
         (country) => country.name.match(new RegExp(action.payload, 'i')),
       );
-      const oldAir = JSON.parse(JSON.stringify(state));
-      const newState = { ...oldAir, filter: newFilter };
-      return newState;
+      return { ...oldAir, filter: newFilter };
     },
     filterShowAll: (state) => {
       const oldAir = JSON.parse(JSON.stringify(state));
-      const newState = { ...oldAir, filter: oldAir.air };
-      return newState;
+      return { ...oldAir, filter: oldAir.air };
     },
     fetchCountryData: (state, action) => {
       const oldAir = JSON.parse(JSON.stringify(state));
-      const newState = {
+      return {
         air: oldAir.air.concat([action.payload]),
         filter: oldAir.filter.concat([action.payload]),
       };
-      return newState;
     },
   },
 });
 
 export const {
-  initState,
   filterByName,
   filterShowAll,
   fetchCountryData,

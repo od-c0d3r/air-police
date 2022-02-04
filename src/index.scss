@@ -3,7 +3,7 @@ body {
   overflow-x: auto;
 
   #info {
-    color: #31d2f2;
+    color: orange;
     position: fixed;
     bottom: 5px;
     right: 10px;
@@ -25,5 +25,29 @@ body {
   .navLink {
     text-decoration: none;
     color: orange;
+  }
+
+  #rate {
+    font-size:x-large;
+
+    .one {
+      color: #339900;
+    }
+
+    .two {
+      color: #339900;
+    }
+
+    .three {
+      color: #ffcc00;
+    }
+
+    .four {
+      color: #ff9966;
+    }
+
+    .five {
+      color: #cc3300;
+    }
   }
 }

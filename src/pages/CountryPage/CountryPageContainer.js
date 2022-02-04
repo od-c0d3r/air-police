@@ -1,9 +1,12 @@
+import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { getCountry } from '../../utils/filter';
 
 const CountryPageContainer = () => {
+  const data = useSelector((state) => state.airApp.filter);
+
   const params = useParams();
-  const country = getCountry(Number(params.countryId));
+  const country = getCountry(data, Number(params.countryId));
 
   return (
     <>

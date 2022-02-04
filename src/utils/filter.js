@@ -1,4 +1,4 @@
-export const MOST_20_AF = [
+export const data = [
   {
     id: 0,
     country: 'Nigeria',
@@ -11,12 +11,12 @@ export const MOST_20_AF = [
     latitude: 8,
     longitude: 38,
   },
-  // {
-  //   id: 2,
-  //   country: 'Egypt',
-  //   latitude: 27,
-  //   longitude: 30,
-  // },
+  {
+    id: 2,
+    country: 'Egypt',
+    latitude: 27,
+    longitude: 30,
+  },
   // {
   //   id: 3,
   //   country: 'DR Congo',
@@ -108,15 +108,7 @@ export const MOST_20_AF = [
   // },
 ];
 
-export const data = [
-  { id: 0, name: 'Egypt', airIdx: 2 },
-  { id: 1, name: 'Egyptos', airIdx: 2 },
-  { id: 2, name: 'Vgyptaz', airIdx: 2 },
-  { id: 3, name: 'Xgyptok', airIdx: 2 },
-  { id: 4, name: 'Jgyptor', airIdx: 2 },
-];
-
-export function getCountry(id) {
+export function getCountry(data, id) {
   return data.find(
     (country) => country.id === id,
   );
