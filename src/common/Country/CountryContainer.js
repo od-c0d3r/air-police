@@ -1,4 +1,4 @@
-import { Row } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
 import { useSelector } from 'react-redux';
 import CountryComponent from './components/CountryComponent';
 
