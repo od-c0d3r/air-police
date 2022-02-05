@@ -14,7 +14,7 @@
 - Netlify ~ _Production Deployment_
 
 ## Live Demo
-[Live Demo](https://github.com/od-c0d3r/air-police)
+[Live Demo](https://youthful-jang-dc829b.netlify.app/)
 
 ## Presentation
 [Video Link](https://www.loom.com/share/cb18895cfa7642c592eefb5a7dad3e04)
