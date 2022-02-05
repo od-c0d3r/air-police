@@ -1,78 +1,95 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# Air Police 1.0 
+
+> We belive that the first step towards elemintaing a bad habit is by watching it, `AirPloice` A mobile web application to check a list of countries Air Quailty index, and it's contents.
+
+> Using OpenWeatherAirQuailty API that provides numeric data about each country, and present it in the app.
+
+## Built With
+
+- React, Redux, Routers, Bootstrap ~ _Javascript Libraries_ 
+- React Testing Library and Jest ~ _Unit and integration Testing_
+- SCSS ~ _Custom Styling_
+- Netlify ~ _Production Deployment_
+
+## Live Demo
+[Live Demo](https://github.com/od-c0d3r/air-police)
+
+## Presentation
+[Video Link](https://www.loom.com/share/cb18895cfa7642c592eefb5a7dad3e04)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps
+
+- From your terminal enter in sequence
+  - `git clone https://github.com/od-c0d3r/air-police.git`
+  - `code air-police`
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- #### `npm install`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - Install the project dependencies.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- #### `npm start`
 
-### `npm test`
+  - Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### `npm run build`
+- #### `npm test`
 
-Builds the app for production to the `build` folder.<br />
+  - Launches the test runner in the interactive watch mode. 
+  - Coming Soon
+
+- #### `npm run build`
+
+  - Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
+  - The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Coders
 
-### `npm run eject`
+👤 **Omar Rashad**
 
-**Note: this is a one-way operation. Once you `eject`, you cant go back!**
+- GitHub: [@od-c0d3r](https://github.com/githubhandle)
+- LinkedIn: [@omarrashad](https://linkedin.com/in/omarrashad)
 
-If you arent satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point youre on your own.
+Contributions, issues, and feature requests are welcome!
 
-You dont have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldnt feel obligated to use this feature. However we understand that this tool wouldnt be useful if you couldnt customize it when you are ready for it.
+Feel free to check the [issues page](../../issues/).
 
-## Learn More
+## Show your support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Give a ⭐️ if you like this project!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-```
-Photo by <a href="https://unsplash.com/@kristenmorith?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kristen Morith</a> on <a href="https://unsplash.com/s/photos/air-pollution?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-Photo by <a href="https://unsplash.com/@mikemarrah?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Marrah</a> on <a href="https://unsplash.com/s/photos/air-pollution?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-```
+- Layout design idea by [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) on Behance.
 
-```
-Codebase
-https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase
-```
+These resources helped me during the development process:
+- Best React-Redux codebase orgnization. ~ [Link](https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase)
+- React routes in seperate file. ~ [Link](https://stackoverflow.com/questions/43026690/declaring-react-routes-in-a-separate-file-and-importing)
+- Open Weather API ~ [Link](https://openweathermap.org/api/air-pollution#current)
+- Country Location data ~ [Link](https://github.com/eesur/country-codes-lat-long/blob/master/country-codes-lat-long-alpha3.json)
 
-```
-seperate routes file
-https://stackoverflow.com/questions/43026690/declaring-react-routes-in-a-separate-file-and-importing
-```
+## License
 
-```
-apis used
-https://restcountries.com/#rest-countries
-https://github.com/eesur/country-codes-lat-long/blob/master/country-codes-lat-long-alpha3.json
-https://openweathermap.org/api/air-pollution#current
-```
+This project is [MIT](./MIT.md) licensed.
 
-```
-desgins used
-https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)
-```
+## 📝 Todo
 
-```
-text effects
-https://css-tricks.com/methods-contrasting-text-backgrounds/
-```
-
+- Feature: Get users live location and rate thier air quailty index.
+- Add maps images for each country.
+- Add navigation animation between pages.
+- Re-design colors and layout.
