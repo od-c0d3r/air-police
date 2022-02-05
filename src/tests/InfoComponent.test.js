@@ -7,7 +7,7 @@ import InfoComponent from '../common/InfoComponent';
 
 
 describe('<InfoComponent />', () => {
-    test('renders info table and title', () => {
+    it('renders info table and title', () => {
         render(
             <Provider store={store}>
                 <BrowserRouter>

@@ -1,86 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Snapshots <App /> 1`] = `
-<main
-  id="App"
->
-  <nav
-    className="navbar navbar-expand navbar-light bg-light"
-  >
-    <div
-      className="container-fluid"
-    >
-      <span
-        className="navbar-brand"
-      >
-        <a
-          aria-current="page"
-          className="navLink active"
-          href="/"
-          onClick={[Function]}
-        >
-          AirPolice
-        </a>
-      </span>
-      <button
-        aria-controls="navbarScroll"
-        aria-label="Toggle navigation"
-        className="navbar-toggler collapsed"
-        onClick={[Function]}
-        type="button"
-      >
-        <span
-          className="navbar-toggler-icon"
-        />
-      </button>
-      <form
-        className="d-flex"
-        onSubmit={[Function]}
-      >
-        <input
-          aria-label="🔍"
-          className="me-2 form-control"
-          id="inputSearch"
-          onChange={[Function]}
-          placeholder="Filter by Country Name"
-          type="search"
-        />
-      </form>
-    </div>
-  </nav>
-  <div
-    className="g-4 ms-0 me-0 row row-cols-md-3 row-cols-2"
-  />
-  <svg
-    data-testid="info"
-    fill="none"
-    height="1em"
-    id="info"
-    onClick={[Function]}
-    stroke="currentColor"
-    strokeWidth="0"
-    style={
-      Object {
-        "color": undefined,
-      }
-    }
-    viewBox="0 0 24 24"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-    />
-  </svg>
-</main>
-`;
-
-exports[`Snapshots <CountryContainer /> 1`] = `
+exports[`Snapshots <CountriesListContainer /> 1`] = `
 <div
-  className="g-4 ms-0 me-0 row row-cols-md-3 row-cols-2"
+  className="g-4 ms-0 me-0 mt-1 mb-5 row row-cols-md-3 row-cols-2"
 />
 `;
 

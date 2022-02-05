@@ -5,7 +5,7 @@ import store from '../state/store';
 import Header from '../common/Header';
 
 describe('<Header />', () => {
-    test('renders logo and search bar', () => {
+    it('renders logo and search bar', () => {
         render(
             <Provider store={store}>
                 <BrowserRouter>

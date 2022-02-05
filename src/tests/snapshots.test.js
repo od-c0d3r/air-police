@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import store from '../state/store';
 import App from '../common/App'
 import Header from '../common/Header';
-import CountryContainer from '../common/Country/CountryContainer';
+import CountriesListContainer from '../common/Country/CountriesListContainer';
 import CountryComponent from '../common/Country/components/CountryComponent';
 import InfoComponent from '../common/InfoComponent';
 import CountryPageContainer from '../pages/CountryPage/CountryPageContainer';
@@ -13,20 +13,6 @@ import CountryPageContainer from '../pages/CountryPage/CountryPageContainer';
 jest.mock('../utils/filter');
 
 describe('Snapshots', () => {
-    xit('<App />', () => {
-        const tree = renderer
-            .create(
-                <Provider store={store}>
-                    <BrowserRouter>
-                        <App />
-                    </BrowserRouter>
-                </Provider>
-            )
-            .toJSON();
-
-        expect(tree).toMatchSnapshot();
-    });
-
     it('<Header />', () => {
         const tree = renderer
             .create(
@@ -55,26 +41,12 @@ describe('Snapshots', () => {
         expect(tree).toMatchSnapshot();
     });
 
-    it('<CountryContainer />', () => {
+    it('<CountriesListContainer />', () => {
         const tree = renderer
             .create(
                 <Provider store={store}>
                     <BrowserRouter>
-                        <CountryContainer />
-                    </BrowserRouter>
-                </Provider>
-            )
-            .toJSON();
-
-        expect(tree).toMatchSnapshot();
-    });
-
-    xit('<CountryComponent />', () => {
-        const tree = renderer
-            .create(
-                <Provider store={store}>
-                    <BrowserRouter>
-                        <CountryComponent />
+                        <CountriesListContainer />
                     </BrowserRouter>
                 </Provider>
             )

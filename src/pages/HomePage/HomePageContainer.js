@@ -1,5 +1,5 @@
-import CountryContainer from '../../common/Country/CountryContainer';
+import CountriesListContainer from '../../common/Country/CountriesListContainer';
 
-const HomePageContainer = () => <CountryContainer />;
+const HomePageContainer = () => <CountriesListContainer />;
 
 export default HomePageContainer;

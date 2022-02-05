@@ -5,7 +5,7 @@ import App from '../common/App';
 import { BrowserRouter } from 'react-router-dom';
 
 describe('<App />', () => {
-    test('renders <App />', () => {
+    it('renders <App />', () => {
         render(
             <Provider store={store}>
                 <BrowserRouter>
