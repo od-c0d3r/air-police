@@ -1,0 +1,57 @@
+body {
+  overflow: visible;
+  overflow-x: auto;
+
+  #info {
+    color: orange;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    font-size: 35px;
+  }
+
+  #alert-window {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .cardLink {
+    color: black;
+    text-decoration: none;
+  }
+
+  .navLink {
+    text-decoration: none;
+    color: orange;
+  }
+
+  #rate {
+    font-size: x-large;
+
+    .one {
+      color: #390;
+    }
+
+    .two {
+      color: #390;
+    }
+
+    .three {
+      color: #fc0;
+    }
+
+    .four {
+      color: #f96;
+    }
+
+    .five {
+      color: #c30;
+    }
+  }
+
+  .country-index {
+    font-size: xx-large;
+  }
+}
