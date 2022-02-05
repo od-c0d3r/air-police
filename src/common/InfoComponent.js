@@ -55,7 +55,7 @@ const InfoComponent = () => {
         </div>
       </Alert>
 
-      {!show && <HiOutlineExclamationCircle id="info" onClick={() => setShow(true)} />}
+      {!show && <HiOutlineExclamationCircle id="info" data-testid="info" onClick={() => setShow(true)} />}
     </>
   );
 };

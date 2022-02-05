@@ -8,10 +8,10 @@ export const airSlice = createSlice({
   reducers: {
     filterByName: (state, action) => {
       const oldAir = JSON.parse(JSON.stringify(state));
-      const newFilter = state.air.filter(
+      const nameFilter = state.air.filter(
         (country) => country.name.match(new RegExp(action.payload, 'i')),
       );
-      return { ...oldAir, filter: newFilter };
+      return { ...oldAir, filter: nameFilter };
     },
     filterShowAll: (state) => {
       const oldAir = JSON.parse(JSON.stringify(state));
