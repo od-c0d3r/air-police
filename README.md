@@ -16,9 +16,6 @@
 ## Live Demo
 [Live Demo](https://youthful-jang-dc829b.netlify.app/)
 
-## Presentation
-[Video Link](https://www.loom.com/share/cb18895cfa7642c592eefb5a7dad3e04)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps
